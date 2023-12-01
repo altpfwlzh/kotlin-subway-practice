@@ -18,7 +18,7 @@ class PurchaseAmount(private val amount: Int) {
         const val MIN_AMOUNT = 1_000
         const val MAX_AMOUNT = 100_000
 
-        const val AMOUNT_OUT_OF_RANGE = "구입 금액은 %d ~ %d여야 합니다."
-        const val AMOUNT_UNIT_NOT_MATCHED = "구입 금액은 %d원 단위여야 합니다."
+        const val AMOUNT_OUT_OF_RANGE = "구입 금액은 %s ~ %s여야 합니다."
+        const val AMOUNT_UNIT_NOT_MATCHED = "구입 금액은 %s 단위여야 합니다."
     }
 }
